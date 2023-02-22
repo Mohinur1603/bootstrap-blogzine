@@ -22,7 +22,7 @@ function Items({ data }) {
             &#9864; {data?.specialityTxt}
           </span>
           <h4 className="my-3">
-            <a href="#" className="a">
+            <a href="foo" className="a">
               {data?.title}
             </a>
           </h4>

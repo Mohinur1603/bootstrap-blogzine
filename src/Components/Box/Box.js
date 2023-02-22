@@ -27,32 +27,32 @@ const links = [
 	},
 ];
 
-const cardLinks = [
-	{
-		cardUrl:
-			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/01.jpg",
-		cardTitle: "The pros and cons of business agency",
-		cardDate: "May 17, 2022",
-	},
-	{
-		cardUrl:
-			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/02.jpg",
-		cardTitle: "5 reasons why you shouldn't startup",
-		cardDate: "Apr 04, 2022",
-	},
-	{
-		cardUrl:
-			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/03.jpg",
-		cardTitle: "Ten questions you should answer truthfully.",
-		cardDate: "Jun 30, 2022",
-	},
-	{
-		cardUrl:
-			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/04.jpg",
-		cardTitle: "Five unbelievable facts about money.",
-		cardDate: "Nov 29, 2022",
-	},
-];
+// const cardLinks = [
+// 	{
+// 		cardUrl:
+// 			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/01.jpg",
+// 		cardTitle: "The pros and cons of business agency",
+// 		cardDate: "May 17, 2022",
+// 	},
+// 	{
+// 		cardUrl:
+// 			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/02.jpg",
+// 		cardTitle: "5 reasons why you shouldn't startup",
+// 		cardDate: "Apr 04, 2022",
+// 	},
+// 	{
+// 		cardUrl:
+// 			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/03.jpg",
+// 		cardTitle: "Ten questions you should answer truthfully.",
+// 		cardDate: "Jun 30, 2022",
+// 	},
+// 	{
+// 		cardUrl:
+// 			"https://blogzine.webestica.com/assets/images/blog/4by3/thumb/04.jpg",
+// 		cardTitle: "Five unbelievable facts about money.",
+// 		cardDate: "Nov 29, 2022",
+// 	},
+// ];
 
 const Item = ({ data,cl }) => {
 	const { theme } = useContext(ThemeContext);
@@ -142,7 +142,7 @@ export default function Box() {
 							<div className='col-6'>
 								<a
 									className='text-decoration-none'
-									href='#'>
+									href='foo'>
 									Load more post
 								</a>
 							</div>
